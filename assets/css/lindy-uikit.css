@@ -1000,9 +1000,9 @@ p {
 
 
 /* ============================= 
-    CONTACT-3 CSS
+    rekomendasi-3 CSS
 ================================ */
-.contact-style-3 {
+.rekomendasi-style-3 {
   background: #F3F3F3;
   padding: 100px 0 70px;
   position: relative;
@@ -1010,19 +1010,20 @@ p {
   overflow: hidden;
 }
 
-.contact-style-3 .contact-form-wrapper form .single-input {
+.rekomendasi-style-3 .rekomendasi-form-wrapper form .single-input {
   position: relative;
-  margin-bottom: 20px;
+  margin-left: 250px;
+  margin-bottom: 50px;
 }
 
-.contact-style-3 .contact-form-wrapper form .single-input label {
+.rekomendasi-style-3 .rekomendasi-form-wrapper form .single-input label {
   display: block;
   width: 100%;
   margin-bottom: 10px;
 }
 
-.contact-style-3 .contact-form-wrapper form .single-input textarea,
-.contact-style-3 .contact-form-wrapper form .single-input input {
+.rekomendasi-style-3 .rekomendasi-form-wrapper form .single-input textarea,
+.rekomendasi-style-3 .rekomendasi-form-wrapper form .single-input input {
   background: #ffffff;
   border-radius: 5px;
   position: relative;
@@ -1034,67 +1035,68 @@ p {
   transition: all 0.3s ease-out 0s;
 }
 
-.contact-style-3 .contact-form-wrapper form .single-input textarea::placeholder,
-.contact-style-3 .contact-form-wrapper form .single-input input::placeholder {
+.rekomendasi-style-3 .rekomendasi-form-wrapper form .single-input textarea::placeholder,
+.rekomendasi-style-3 .rekomendasi-form-wrapper form .single-input input::placeholder {
   font-weight: 300;
   opacity: 1;
   color: 585978;
 }
 
-.contact-style-3 .contact-form-wrapper form .single-input textarea:focus,
-.contact-style-3 .contact-form-wrapper form .single-input input:focus {
+.rekomendasi-style-3 .rekomendasi-form-wrapper form .single-input textarea:focus,
+.rekomendasi-style-3 .rekomendasi-form-wrapper form .single-input input:focus {
   border-color: #2F80ED;
 }
 
-.contact-style-3 .contact-form-wrapper form .single-input input {
+.rekomendasi-style-3 .rekomendasi-form-wrapper form .single-input input {
   height: 56px;
 }
 
-.contact-style-3 .contact-form-wrapper form .single-input textarea {
+.rekomendasi-style-3 .rekomendasi-form-wrapper form .single-input textarea {
   padding: 15px 20px;
   padding-left: 50px;
   resize: none;
 }
 
-.contact-style-3 .contact-form-wrapper form .single-input i {
+.rekomendasi-style-3 .rekomendasi-form-wrapper form .single-input i {
   position: absolute;
   left: 21px;
   top: 20px;
 }
 
-.contact-style-3 .contact-form-wrapper form .form-button {
+.rekomendasi-style-3 .rekomendasi-form-wrapper form .form-button {
   padding-top: 10px;
+  margin-left: 570px;
 }
 
-.contact-style-3 .contact-form-wrapper form .form-button button {
+.rekomendasi-style-3 .rekomendasi-form-wrapper form .form-button button {
   height: 56px;
   border-radius: 5px;
 }
 
-.contact-style-3 .contact-form-wrapper form .form-button button i {
+.rekomendasi-style-3 .rekomendasi-form-wrapper form .form-button button i {
   padding-left: 0;
   padding-right: 20px;
 }
 
 @media only screen and (min-width: 1400px) {
-  .contact-style-3 .left-wrapper {
+  .rekomendasi-style-3 .left-wrapper {
     margin-left: 60px;
   }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .contact-style-3 .left-wrapper {
+  .rekomendasi-style-3 .left-wrapper {
     margin-left: 40px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
-  .contact-style-3 .left-wrapper {
+  .rekomendasi-style-3 .left-wrapper {
     margin-top: 50px;
   }
 }
 
-.contact-style-3 .left-wrapper .single-item {
+.rekomendasi-style-3 .left-wrapper .single-item {
   padding: 25px 20px;
   border-radius: 5px;
   background: #ffffff;
@@ -1105,11 +1107,11 @@ p {
   transition: all 0.3s ease-out 0s;
 }
 
-.contact-style-3 .left-wrapper .single-item:hover {
+.rekomendasi-style-3 .left-wrapper .single-item:hover {
   box-shadow: 0px 5px 25px rgba(47, 128, 237, 0.3);
 }
 
-.contact-style-3 .left-wrapper .single-item .icon {
+.rekomendasi-style-3 .left-wrapper .single-item .icon {
   max-width: 54px;
   width: 100%;
   height: 54px;
@@ -1127,7 +1129,7 @@ p {
     FOOTER-4 CSS
 ================================ */
 .footer-style-4 {
-  background: #F3F3F3;
+  background: #ffffff;
   padding-top: 80px;
 }
 
