@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+transformers
+torch
+faiss-cpu
+numpy
+pandas
+openpyxl
+rapidfuzz
+python-multipart
