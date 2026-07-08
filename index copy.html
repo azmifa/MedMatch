@@ -229,25 +229,19 @@
           <div class="col-xxl-5 col-xl-5 col-lg-7 col-md-10">
             <div class="section-title text-center mb-50">
               <h4 class="mb-15">Rekomendasi Alternatif Obat</h4>
-              <h6>Silahkan masukkan nama obat/gejala disini...</h6>
+              <h6>Silahkan masukkan nama obat/gejala disini...</b></h6>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-10 mx-auto">
+          <div class="col-lg-8">
             <div class="rekomendasi-form-wrapper">
-              <form id="rekomendasiForm" action="" method="">
+              <form action="" method="">
                 <div class="row">
-                  <div class="col-md-8">
+                  <div class="col-md-6">
                     <div class="single-input">
-                      <input type="text" id="nama_obat" name="nama_obat" class="form-input" placeholder="Contoh: saya 20 tahun demam dan meriang" style="width: 100%">
+                      <input type="text" id="nama_obat" name="nama_obat" class="form-input" placeholder="Nama obat atau gejala" style="width: 800px">
                       <i class="lni lni-text-format"></i>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="single-input">
-                      <input type="number" id="usia" name="usia" class="form-input" placeholder="Usia" min="0" max="120" style="width: 100%">
-                      <i class="lni lni-user"></i>
                     </div>
                   </div>
 
@@ -256,10 +250,7 @@
                       <button type="submit" class="button"> <i class="lni lni-telegram-original"></i> Submit</button>
                     </div>
                   </div>
-                </div>
               </form>
-              <div id="notifikasi" class="mt-4" role="alert" aria-live="polite"></div>
-              <div id="hasilRekomendasi" class="mt-4"></div>
             </div>
           </div>
         </div>
@@ -289,15 +280,9 @@
                 <h6>Tentang Saya</h6>
                 <ul class="links">
                   <li><p><strong>Nama</strong><br>Azmi Fadhilah Hasibuan</p></li>
-<<<<<<< HEAD
                   <li><p><strong>Program Studi</strong><br>Sistem Informasi</p></li>
                   <li><p><strong>Institusi</strong><br>Politeknik Caltex Riau</p></li>
                   <li><p><strong>Email</strong><br><a href="mailto:azmi22si@mahasiswa.pcr.ac.id">azmi22si@mahasiswa.pcr.ac.id</a></p></li>
-=======
-                  <li><p><strong>Program Studi</strong><br>Informatika</p></li>
-                  <li><p><strong>Institusi</strong><br>Politeknik Caltex Riau</p></li>
-                  <li><p><strong>Email</strong><br><a href="mailto:shumaya@pcr.ac.id">shumaya@pcr.ac.id</a></p></li>
->>>>>>> 0ed7cf493f146a3eeb288ecf48e074a690639d91
                 </ul>
               </div>
             </div>
@@ -308,11 +293,7 @@
                 <h6>Navigasi</h6>
                 <ul class="links">
                   <li><a href="#home">Beranda</a></li>
-<<<<<<< HEAD
-                  <li><a href="#feature">Fitur</a></li>
-=======
                   <li><a href="#fitur">Fitur</a></li>
->>>>>>> 0ed7cf493f146a3eeb288ecf48e074a690639d91
                   <li><a href="#rekomendasi">Rekomendasi</a></li>
                   <li><a href="#tentang">Tentang</a></li>
                 </ul>
@@ -341,206 +322,5 @@
     <script src="assets/js/tiny-slider.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/main.js"></script>
-    <script>
-      const daftarObat = [
-        {
-          nama: "Paracetamol",
-          gejala: ["demam", "meriang", "sakit kepala", "nyeri"],
-          indikasi: "Membantu menurunkan demam dan meredakan nyeri ringan sampai sedang.",
-          dosis: "Dewasa: 500 mg setiap 4-6 jam bila perlu. Anak: sesuaikan dosis dengan usia/berat badan dan aturan kemasan.",
-          kontraindikasi: "Tidak dianjurkan untuk pengguna dengan alergi paracetamol atau gangguan hati berat.",
-          golongan: "Analgesik dan antipiretik",
-          peringatan: "Jangan melebihi dosis harian dan hindari penggunaan bersamaan dengan produk lain yang juga mengandung paracetamol."
-        },
-        {
-          nama: "Ibuprofen",
-          gejala: ["demam", "meriang", "nyeri", "sakit kepala"],
-          indikasi: "Membantu meredakan demam, nyeri, dan peradangan ringan.",
-          dosis: "Dewasa: 200-400 mg setiap 6-8 jam setelah makan. Anak: gunakan dosis sesuai usia/berat badan pada kemasan.",
-          kontraindikasi: "Hindari pada riwayat alergi NSAID, tukak lambung aktif, atau gangguan ginjal berat.",
-          golongan: "Anti-inflamasi nonsteroid (NSAID)",
-          peringatan: "Gunakan setelah makan dan konsultasikan bila memiliki riwayat maag, asma, hamil, atau memakai pengencer darah."
-        },
-        {
-          nama: "Cetirizine",
-          gejala: ["pilek", "bersin", "batuk pilek", "alergi", "hidung gatal"],
-          indikasi: "Membantu meredakan gejala alergi seperti bersin, pilek, dan hidung gatal.",
-          dosis: "Dewasa: 10 mg sekali sehari. Anak: ikuti dosis anak sesuai usia pada kemasan.",
-          kontraindikasi: "Tidak dianjurkan untuk pengguna dengan alergi cetirizine atau gangguan ginjal berat tanpa arahan tenaga kesehatan.",
-          golongan: "Antihistamin",
-          peringatan: "Dapat menyebabkan kantuk pada sebagian pengguna. Hindari mengemudi bila terasa mengantuk."
-        },
-        {
-          nama: "Chlorpheniramine Maleate (CTM)",
-          gejala: ["pilek", "bersin", "batuk pilek", "alergi"],
-          indikasi: "Membantu mengurangi keluhan pilek atau bersin karena alergi.",
-          dosis: "Dewasa: 4 mg setiap 4-6 jam bila perlu. Anak: gunakan dosis anak sesuai aturan kemasan.",
-          kontraindikasi: "Hindari pada alergi CTM dan gunakan hati-hati pada glaukoma atau gangguan prostat.",
-          golongan: "Antihistamin generasi pertama",
-          peringatan: "Sering menyebabkan kantuk. Hindari alkohol dan aktivitas yang membutuhkan kewaspadaan tinggi."
-        },
-        {
-          nama: "Dextromethorphan",
-          gejala: ["batuk", "batuk kering", "batuk pilek"],
-          indikasi: "Membantu meredakan batuk kering atau batuk tidak berdahak.",
-          dosis: "Dewasa: ikuti dosis pada kemasan, umumnya setiap 6-8 jam bila perlu. Anak: gunakan sediaan dan dosis khusus anak.",
-          kontraindikasi: "Tidak untuk batuk berdahak berat atau pengguna yang alergi terhadap dextromethorphan.",
-          golongan: "Antitusif",
-          peringatan: "Konsultasikan bila batuk berlangsung lebih dari 3 hari, disertai sesak, atau demam tinggi."
-        },
-        {
-          nama: "Guaifenesin",
-          gejala: ["batuk", "batuk berdahak", "batuk pilek"],
-          indikasi: "Membantu mengencerkan dahak agar lebih mudah dikeluarkan.",
-          dosis: "Dewasa dan anak: ikuti aturan dosis sesuai sediaan pada kemasan.",
-          kontraindikasi: "Tidak dianjurkan untuk pengguna dengan alergi guaifenesin.",
-          golongan: "Ekspektoran",
-          peringatan: "Perbanyak minum air putih dan konsultasikan bila dahak berwarna pekat disertai demam tinggi."
-        }
-      ];
-
-      const kamusKoreksi = {
-        domam: "demam",
-        meriyang: "meriang",
-        batok: "batuk",
-        pileg: "pilek",
-        pillek: "pilek",
-        pusink: "pusing",
-        saket: "sakit"
-      };
-
-      const formRekomendasi = document.getElementById("rekomendasiForm");
-      const inputKeluhan = document.getElementById("nama_obat");
-      const inputUsia = document.getElementById("usia");
-      const notifikasi = document.getElementById("notifikasi");
-      const hasilRekomendasi = document.getElementById("hasilRekomendasi");
-
-      function bersihkanTeks(teks) {
-        return teks.toLowerCase().replace(/[^a-z0-9\s]/g, " ").replace(/\s+/g, " ").trim();
-      }
-
-      function koreksiEjaan(teks) {
-        return bersihkanTeks(teks)
-          .split(" ")
-          .map((kata) => kamusKoreksi[kata] || kata)
-          .join(" ");
-      }
-
-      function ambilUsia(teks) {
-        const usiaDariInput = parseInt(inputUsia.value, 10);
-        if (!Number.isNaN(usiaDariInput)) return usiaDariInput;
-
-        const cocok = teks.match(/(?:usia|umur|saya|anak saya)?\s*(\d{1,3})\s*(?:tahun|thn|th)?/i);
-        return cocok ? parseInt(cocok[1], 10) : null;
-      }
-
-      function kategoriUsia(usia) {
-        if (usia < 12) return "anak";
-        if (usia < 18) return "remaja";
-        return "dewasa";
-      }
-
-      function tampilkanNotifikasi(pesan, tipe = "warning") {
-        notifikasi.innerHTML = `<div class="alert alert-${tipe} mb-0">${pesan}</div>`;
-      }
-
-      function hitungSkor(obat, keluhan) {
-        return obat.gejala.reduce((skor, gejala) => {
-          return keluhan.includes(gejala) ? skor + 1 : skor;
-        }, 0);
-      }
-
-      function buatKartuObat(obat, urutan, kategori) {
-        return `
-          <div class="col-lg-6 mb-4">
-            <div class="rekomendasi-card">
-              <div class="rekomendasi-card-header">
-                <div>
-                  <span class="rekomendasi-rank">#${urutan}</span>
-                  <h5>${obat.nama}</h5>
-                </div>
-                <span class="rekomendasi-badge">${kategori}</span>
-              </div>
-              <div class="rekomendasi-card-body">
-                <div class="rekomendasi-info">
-                  <span>Indikasi</span>
-                  <p>${obat.indikasi}</p>
-                </div>
-                <div class="rekomendasi-info">
-                  <span>Dosis</span>
-                  <p>${obat.dosis}</p>
-                </div>
-                <div class="rekomendasi-info">
-                  <span>Kontraindikasi</span>
-                  <p>${obat.kontraindikasi}</p>
-                </div>
-                <div class="rekomendasi-info">
-                  <span>Golongan obat</span>
-                  <p>${obat.golongan}</p>
-                </div>
-                <div class="rekomendasi-info">
-                  <span>Peringatan</span>
-                  <p>${obat.peringatan}</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        `;
-      }
-
-      formRekomendasi.addEventListener("submit", function (event) {
-        event.preventDefault();
-
-        const keluhanAsli = inputKeluhan.value.trim();
-        hasilRekomendasi.innerHTML = "";
-        notifikasi.innerHTML = "";
-
-        if (!keluhanAsli) {
-          tampilkanNotifikasi("Input gejala tidak boleh kosong.");
-          inputKeluhan.focus();
-          return;
-        }
-
-        const keluhanTerkoreksi = koreksiEjaan(keluhanAsli);
-        const usia = ambilUsia(keluhanAsli);
-        if (usia === null || usia < 0 || usia > 120) {
-          if (keluhanTerkoreksi !== bersihkanTeks(keluhanAsli)) {
-            tampilkanNotifikasi(`Sistem memahami ejaan sebagai: "${keluhanTerkoreksi}", namun pengguna harus menginputkan usia yang valid.`);
-          } else {
-            tampilkanNotifikasi("Pengguna harus menginputkan usia yang valid.");
-          }
-          inputUsia.focus();
-          return;
-        }
-
-        const kategori = kategoriUsia(usia);
-        const rekomendasi = daftarObat
-          .map((obat) => ({ ...obat, skor: hitungSkor(obat, keluhanTerkoreksi) }))
-          .filter((obat) => obat.skor > 0)
-          .sort((a, b) => b.skor - a.skor || a.nama.localeCompare(b.nama))
-          .slice(0, 5);
-
-        if (rekomendasi.length === 0) {
-          tampilkanNotifikasi("Gejala belum dikenali. Coba masukkan keluhan seperti demam, meriang, batuk, pilek, nyeri, atau sakit kepala.", "info");
-          return;
-        }
-
-        if (keluhanTerkoreksi !== bersihkanTeks(keluhanAsli)) {
-          tampilkanNotifikasi(`Sistem memahami ejaan sebagai: "${keluhanTerkoreksi}".`, "success");
-        } else {
-          tampilkanNotifikasi(`Ditemukan ${rekomendasi.length} rekomendasi obat untuk kategori ${kategori}.`, "success");
-        }
-
-        hasilRekomendasi.innerHTML = `
-          <div class="rekomendasi-result-header">
-            <h5>Top ${rekomendasi.length} Rekomendasi Teratas</h5>
-            <p>Keluhan dikenali: ${keluhanTerkoreksi}</p>
-          </div>
-          <div class="row">
-            ${rekomendasi.map((obat, index) => buatKartuObat(obat, index + 1, kategori)).join("")}
-          </div>
-        `;
-      });
-    </script>
   </body>
 </html>
